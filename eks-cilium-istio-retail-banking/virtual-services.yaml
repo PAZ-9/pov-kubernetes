@@ -1,0 +1,20 @@
+apiVersion: networking.istio.io/v1
+kind: VirtualService
+
+metadata:
+  name: customer-profile
+  namespace: retail-banking-team
+
+spec:
+  hosts:
+    - retail-banking.cloud9.ceo
+
+  gateways:
+    - retail-banking-istio-igw
+
+  http:
+    - route:
+        - destination:
+            host: customer-profile-svc
+            port:
+              number: 8081
