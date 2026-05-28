@@ -3,8 +3,7 @@
 A three-service demo application deployed on a Kind cluster with Istio service mesh. Traffic enters through the Istio ingress gateway and is routed through the service chain via Envoy sidecar proxies.
 
 ## Architecture
-<img width="1643" height="534" alt="image" src="https://github.com/user-attachments/assets/11ad79cc-b649-420c-9c14-77d2cabfa3a3" />
-
+<img width="1851" height="581" alt="image" src="https://github.com/user-attachments/assets/f107e0de-ab13-46e1-aef6-b12537c768fd" />
 
 ```
 curl (Host: retail-banking.example.com)
