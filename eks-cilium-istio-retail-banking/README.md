@@ -3,6 +3,7 @@
 A proof-of-concept deployment of a retail banking microservices application on Amazon EKS with Cilium CNI, Istio service mesh, Route53 custom domain, and HTTPS via self-signed TLS certificate.
 
 ## Architecture
+<img width="3558" height="2371" alt="Picture3" src="https://github.com/user-attachments/assets/b77868a4-e47e-44c6-a911-b52810ed5aed" />
 
 ```
 Internet User
